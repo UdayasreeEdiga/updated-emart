@@ -1,0 +1,68 @@
+<form (ngSubmit)="save()">
+    <div class="signup">
+      <div>
+      <h3>Signup Form</h3>
+            
+            <p>Signup to access your login page</p>
+        </div>
+        
+        <div class="form-group" >
+            
+            <input type="text" placeholder="username" name="uname" required  [(ngModel)]="user.username"/>
+        </div>
+   
+        <div class="form-group">
+        
+           <input type="password" placeholder="Enter Password" name="psw" required  [(ngModel)]="user.password"/>
+        </div>
+
+        <div class="form-group">
+            
+            <input type="password" placeholder="Confirm Password" name="psw-confirm" required   [(ngModel)]="user.confirmPassword"/>
+        </div>
+     
+        <div class="form-group">
+                   
+                
+                <button class="form-button" type="submit" class="signup">Sign Up</button> 
+            
+        </div>            
+    </div>
+   
+    
+  </form>
+
+
+
+  <!-- <div class="wrap">
+    <form class="signup-form" (ngSubmit)="save()" >
+        <div class="form-header">
+            <h3>Signup Form</h3>
+            
+            <p>Signup to access your login page</p>
+        </div>
+        
+        <div class="form-group" >
+            
+            <input type="text" placeholder="username" name="uname" required  [(ngModel)]="user.username"/>
+        </div>
+   
+        <div class="form-group">
+        
+           <input type="password" placeholder="Enter Password" name="psw" required  [(ngModel)]="user.password"/>
+        </div>
+
+        <div class="form-group">
+            
+            <input type="password" placeholder="Confirm Password" name="psw-confirm" required   [(ngModel)]="user.confirmPassword"/>
+        </div>
+     
+        <div class="form-group">
+                   
+                
+                <button type="submit" class="signup">Sign Up</button> 
+            
+        </div>            
+        
+    </form>
+</div> -->

@@ -1,0 +1,72 @@
+<fieldset>
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="category">Category</label>  
+      <div class="col-md-4">
+        <input id="cat" name="cat" type="text" placeholder="category name" class="form-control input-md">
+       </div>
+    </div>
+    <br/><br/>
+   <div class="form-group">
+      <label class="col-md-4 control-label" for="dis_count">Discount</label>  
+      <div class="col-md-2">
+      <input id="dcount" name="dcount" type="text" placeholder="discount" class="form-control input-sm">
+    </div>
+    </div>
+    <br/><br/>
+
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="sub_category">Sub-Category</label>  
+      <div class="col-md-4">
+      <input id="subcat" name="subcat" type="text" placeholder="subcategory_name" class="form-control input-md">
+     </div>
+    </div>
+    <br/><br/>
+     <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="items">Items</label>  
+      <div class="col-md-4">
+      <input id="items" name="items" type="text" placeholder="item_name" class="form-control input-md">
+        
+      </div>
+    </div>
+    <br/><br/>
+    
+ <div class="form-group">
+        <label class="col-md-4 control-label" for="items">Price</label>  
+        <div class="col-md-1">
+        <input id="price" name="price" type="text" placeholder="price of the item" class="form-control input-md">
+          </div>
+          <label class="col-md-1 control-label">Quantity</label>
+          <div class="col-md-1">
+            <input id="qty" name="qty" type="text" placeholder="quantity" class="form-control input-md">
+              </div>
+              <label class="col-md-1 control-label">Discount</label>
+          <div class="col-md-1">
+            <input id="dcount" name="dcount" type="text" placeholder="discount" class="form-control input-md">
+            
+              </div>
+         </div>
+<br/><br/>
+         <div class="form-group">
+            <label class="col-md-4 control-label" for="textarea">Description</label>
+            <div class="col-md-4">                     
+              <textarea class="form-control" id="desc" name="desc">default text</textarea>
+              <br/>
+      <span><button id="add" name="add" class="btn btn-primary"> Add </button>
+        <button id="delete" name="delete" class="btn btn-danger"> Delete </button> 
+        <button id="edit" name="edit" class="btn btn-warning"> Edit </button></span> 
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="submit">Are you sure you want to Submit</label>
+            <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-primary" (click)="save()">Submit</button> 
+              
+
+            </div>
+          </div>
+    
+    </fieldset>
